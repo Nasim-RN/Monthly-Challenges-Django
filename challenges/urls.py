@@ -4,6 +4,6 @@ from . import views
 
 # Define URL patterns for the application
 urlpatterns = [
-    # Access the 'index' function inside 'views' in this path ('/january')
-    path("january", views.index)
+    # Access the 'monthly_chalange' function inside 'views' in this path ('/<month>')
+    path("<month>", views.monthly_challenge)
 ]
