@@ -3,19 +3,20 @@ from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
 
 monthly_challenges = {
-    "january": "Eat no meat for the entire month!",
-    "february": "Walk for at least 20 minutes every day!",
-    "march": "Learn Django for at least 20 minutes every day!",
-    "april": "Eat no meat for the entire month!",
-    "may": "Walk for at least 20 minutes every day!",
-    "june": "Learn Django for at least 20 minutes every day!",
-    "july": "Eat no meat for the entire month!",
-    "august": "Walk for at least 20 minutes every day!",
-    "september": "Learn Django for at least 20 minutes every day!",
-    "october": "Eat no meat for the entire month!",
-    "november": "Walk for at least 20 minutes every day!",
-    "december": "Learn Django for at least 20 minutes every day!"
+    "january": "Hydration Challenge: Drink at least 8 glasses of water every day!",
+    "february": "Mindful Eating: Practice mindful eating for all your meals.",
+    "march": "Daily Exercise: Include 30 minutes of physical activity each day.",
+    "april": "Quality Sleep: Aim for 7-9 hours of quality sleep every night.",
+    "may": "Fruit and Veggie Feast: Consume a variety of fruits and vegetables daily.",
+    "june": "Sugar-Free Month: Limit added sugars in your diet.",
+    "july": "Mental Health Boost: Take 10 minutes daily for relaxation or mindfulness.",
+    "august": "No-Soda Challenge: Eliminate sodas and sugary drinks from your diet.",
+    "september": "Whole Grain Adventure: Choose whole grains over refined grains.",
+    "october": "Plank Challenge: Increase core strength with daily planks.",
+    "november": "Gratitude Journal: Write down three things you're grateful for each day.",
+    "december": "Random Acts of Kindness: Perform one daily random act of kindness."
 }
+
 
 # Create your views here.
 
